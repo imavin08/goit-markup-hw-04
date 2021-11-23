@@ -360,6 +360,7 @@ header {
 }
 
 .ourteam-list {
+  background-color: #ffffff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
@@ -395,12 +396,15 @@ header {
 }
 
 .clients-link {
+  width: 170px;
+  height: 92px;
   display: flex;
+  align-items: center;
+  justify-content: center;
   color: #afb1b8;
   box-sizing: border-box;
   border: 1px solid #afb1b8;
   border-radius: 4px;
-  padding: 16px 32px;
 }
 
 .clients-link:hover,
@@ -513,7 +517,7 @@ header {
   justify-content: center;
 }
 
-.join-item {
+.join-link {
   width: 44px;
   height: 44px;
   background-color: rgba(255, 255, 255, 0.1);
@@ -536,8 +540,8 @@ header {
   color: var(--main-title-color);
 }
 
-.join-item:hover,
-.join-item:focus {
+.join-link:hover,
+.join-link:focus {
   background-color: var(--accent);
 }
 
